@@ -4,8 +4,8 @@ require 'sinatra';
 
 $rolodex= Rolodex.new
 
-get "/" do
-	@crm_app_name = "My CRM"
+get "/index" do
+	@crm_app_name = "Sam's Easy CRM"
 	erb :index	
 end
 
